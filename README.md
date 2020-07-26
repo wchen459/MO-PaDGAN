@@ -1,4 +1,4 @@
-# PaDGAN
+# MO-PaDGAN
 
 Experiment code associated with the paper: [MO-PaDGAN: Generating Diverse Designs with Multivariate Performance Enhancement](https://arxiv.org/pdf/2007.04790.pdf)
 
