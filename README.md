@@ -54,7 +54,7 @@ Chen, W., & Ahmed, F. (2020, July). MO-PaDGAN: Generating Diverse Designswith Mu
    cd airfoil
    ```
 
-   Run the experiment:
+4. Run the experiment:
 
    ```bash
    python run_experiment.py train
