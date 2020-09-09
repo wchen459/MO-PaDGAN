@@ -27,9 +27,21 @@ Chen, W., & Ahmed, F. (2020, July). MO-PaDGAN: Generating Diverse Designswith Mu
 
 ## Usage
 
-1. Download the airfoil dataset [here](https://drive.google.com/file/d/1OZfF4Zl31jzJmucBIlSqO4OKq9CKHh4r/view?usp=sharing) and extract the NPY files into `airfoil/data/`.
+1. Go to example directory:
 
-2. Train a surrogate model to predict airfoil performances:
+   ```bash
+   cd airfoil
+   ```
+
+2. Download the airfoil dataset [here](https://drive.google.com/file/d/1OZfF4Zl31jzJmucBIlSqO4OKq9CKHh4r/view?usp=sharing) and extract the NPY files into `airfoil/data/`.
+
+3. Go to the surrogate model directory:
+
+   ```bash
+   cd surrogate
+   ```
+
+4. Train a surrogate model to predict airfoil performances:
 
    ```bash
    python train_surrogate.py train
@@ -48,13 +60,13 @@ Chen, W., & Ahmed, F. (2020, July). MO-PaDGAN: Generating Diverse Designswith Mu
    --save_interval		interval for saving checkpoints
    ```
 
-3. Go to example directory:
+5. Go back to example directory:
 
    ```bash
-   cd airfoil
+   cd ..
    ```
 
-4. Run the experiment:
+6. Run the experiment:
 
    ```bash
    python run_experiment.py train
