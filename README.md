@@ -85,10 +85,9 @@ Chen, W., & Ahmed, F. (2020, July). MO-PaDGAN: Generating Diverse Designswith Mu
    --naive			use naive loss for quality
    --lambda0		coefficient controlling the weight of quality in the DPP kernel
    --lambda1		coefficient controlling the weight of the performance augmented DPP loss in the PaDGAN loss
-   --id			experiment ID
    ```
 
    The default values of the optional arguments will be read from the file `airfoil/config.ini`.
 
-   The trained model and the result plots will be saved under the directory `airfoil/trained_gan/<lambda0>_<lambda1>/<id>`, where `<lambda0>`, `<lambda1>`, and `<id>` are specified in the arguments or in `airfoil/config.ini`.
+   The trained model and the result plots will be saved under the directory `airfoil/trained_gan/<lambda0>_<lambda1>/<id>`, where `<lambda0>` and `<lambda1>` are specified in the arguments or in `airfoil/config.ini`. Note that we can set `lambda0` and `lambda1` to zeros to train a vanilla GAN.
 
