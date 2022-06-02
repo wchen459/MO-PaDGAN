@@ -1,5 +1,5 @@
 """
-BezierGAN for capturing the airfoil manifold
+NN surrogate model
 
 Author(s): Wei Chen (wchen459@umd.edu)
 """
